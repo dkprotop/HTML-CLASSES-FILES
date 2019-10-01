@@ -1,0 +1,67 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+		<link href="estiloForm.css" rel="stylesheet" >
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<form method="get">
+			<p>
+			<fieldset>
+                <label>Nome</label><br>
+                <input type="text" required name="nome" placeholder="Digite seu nome"><br>
+				<legend> input type="checkbox" </legend>
+				<label for="checkbox">Marque aqui </label>
+				<input type="checkbox" name="checkbox1" value="opcao1">
+				<br>
+				<label for="checkbox">aqui aqui </label>
+				<input type="checkbox" name="checkbox2" value="opcao2">
+				<br>
+				<label for="checkbox">eu, eu sou melhor </label>
+                <input type="checkbox" name="checkbox3" value="opcao3">	
+                <br>
+                <input type="radio" name="radio1" value="Feminino">Feminino<br>
+                <input type="radio" name="radio1" value="Masculino">Masculino <br>
+                <input type="radio" name="radio1" value="Outros"> Outros<br>	
+                <textarea name="Texto" rows=7 cols=50 placeholder="Digite aqui sua opnião"></textarea>	<br>
+                <label>Email</label><br>
+				<input type="email" name="email" placeholder="fulano@email.com"><br>
+				<label>Escolha uma cor</label>
+				<input type="text" id="color" name="color" list="colors" placeholder="Escolha uma cor">
+				<datalist id="colors"> 
+					<option>Red</option> 
+					<option>Yellow</option> 
+					<option>Blue</option> 
+					<option>Green</option> 
+					<option>Orange</option> 
+					<option>Purple</option> 
+					<option>Black</option> 
+					<option>White</option> 
+					<option>Gray</option> 
+				</datalist>  <br>
+
+				<label>Senha</label>
+				<input type="password" name="senha" placeholder="Digite a senha">
+				<p>Nascimento (dd/mm/aaaa):
+					<input type="date" required name="data" >
+					
+				</p>
+				<p>Telefone: DDD (
+					<input type="tel" required name="ddd" size="1" maxlength="2" id="ddd"placeholder="DDD">)
+					Tel:<input type="tel" required name="telefone" size="5" maxlength="8" id="tel" placeholder="telefone">
+					Ramal:<input type="tel" required name="ramal" size="2" maxlength="4" id="ramal" placeholder="ramal"><br>
+				</p>
+				
+				
+				<input type="file" name="file">
+				
+            </fieldset>	
+            <input type="image" src="fumec.png" style="position:absolute; top:87px; left:550px; width:200px"/>		
+			<p>
+            <input type="reset" value="Limpar dados"> <br>
+			<input type="submit">
+		</form>		
+	</body>
+</html>
+
+

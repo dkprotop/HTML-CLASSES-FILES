@@ -1,0 +1,28 @@
+h1 {color: rgb(21, 230, 21);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif}
+
+h3{ color: rgb(130, 102, 255);
+    text-shadow: 5px black;
+	margin-left: 20px}
+
+.direita {text-align: right}
+
+.centro {text-align: center;
+         font-size: 50px}
+
+.esquerdo{text-align: left;
+          font-size: 50px}
+
+p {color:#a39b2f;
+   font-size:20px;
+   font-family: Arial, Helvetica, sans-serif}
+
+table, th, td {
+  border: 5px solid black;
+}
+th {
+  height: 50px;
+}
+hr { border-color: blue;
+     border: solid 3px;      
+     } 
